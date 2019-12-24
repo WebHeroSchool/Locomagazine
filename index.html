@@ -6,28 +6,33 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!-- <!Хидер -->
 
-	<div class="header">
-		<div class="header__rectangle"></div>
+<!-- <!Хидер -->
+
+	<header class="head">
 		<div class="logo">Loco</div>
 		<div class="lang">
 			<p>ru</p>
+			<img src="images/Vector.svg">
 		</div>
-		<img src="images/Vector.svg">
-		<img src="images/Mask Group.png">
-		<nav class="nav-wrapper">
-			<div class="menu"></div>
-		</nav>
-		<div class="header_text">
+		<div class="menu"></div>
+	</header>
+
+<!-- Первый блок -->
+
+	<article class="first">
+		<div class="firstimg">
+			<img src="images/Mask Group.png">
+		</div>
+		<div class="first__text">
 			<h1>Новая коллекция</h1>
 			<p>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
-			<button>Читать дальше</button>
+			<button class="first__button">Читать дальше</button>
     	</div>
-		<a class="button" href='#' target="_blank">
+		<a class="first__other" href='#' target="_blank">
    		 Другие предложения</a>
     	<img src="images/Vector 2.1.png">
-    	<div class="header__social">
+    	<div class="first__social">
     		<a class="instagram" href='#' target="_blank">
     		<img src="images/INST.png">
     		</a>
@@ -38,54 +43,68 @@
     		<img src="images/FB.png">
     		</a>
     	</div>
-    	<div class="mouse">
+    	<div class="scroll">
     		<img src="images/Scrooll.svg">
         </div>
-	</div>
+	</article>
 
-    <!-- <!Первый блок -->
+<!-- <!Второй блок -->
 
-	<article class="clatch">
-		<img src="images/10511040_001 2.1 (1).png">
-		<img src="images/10511040_001 2.1.png">
-		<div class="clatch__text">
+	<article class="second">
+		<div class="secondimg">
+			<img src="images/10511040_001 2.1 (1).png">
+		</div>
+		<div class="secondimgone">
+			<img src="images/10511040_001 2.1.png">
+		</div>
+		<div class="second__text">
 			<h2>Кожаный клатч</h2>
 			<h3>Осенняя коллекция</h3>
 			<p>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
 		</div>
-		<div class="grey"></div>
-		<div class="pink"></div>
-		<div class="blue"></div>
-		<div class="green"></div>
-		<h2>1990₽</h2>
-		<div class="clatch__button"></div>
-			<button>-</button>
-			<p>1</p>
-			<button>+</button>
+		<div class="choice">
+			<div class="grey"></div>
+			<div class="pink"></div>
+			<div class="blue"></div>
+			<div class="green"></div>
+			<h2>1990₽</h2>
+		</div>
+		<div class="second__button">
+			<button type="button" class="minus">-</button>
+			<input type="text" value="1" autocomplete="off" maxlength="2" class="in_tb numeric ignore">
+			<button type="button" class="plus">+</button>
 			<button> добавить в корзину</button>
-		<div class="clatch__rectangle"></div>
+		</div>
 	</article>
-	<a href='#' target="_blank">Другие товары на Loco.com</a>
+	<a class="second__other" href='#' target="_blank">Другие товары на Loco.com</a>
 	<img src="images/Vector 2.3.png">
 
+<!-- Квадрат за картинкой -->	
 
-	<!-- <!Второй блок -->
+	<aside class="decor">
+		<div class="rectangle"></div>
+	</aside>
 
-	<article class="totlook">
-		<div class="totlook__rectangle"></div>
-		<img src="images/photo-1516762689617-e1cffcef479d.png">
-		<div class="totlook__text">
+
+<!-- <!Третий блок -->
+
+	<article class="third">
+		<div class="thirdimg">
+			<img src="images/photo-1516762689617-e1cffcef479d.png">
+		</div>
+		<div class="third__text">
 			<h2>Serene Total Look</h2>
 			<h3>Осенняя коллекция</h3>
-			<p>Джинсы, свитер, обувь. В комплект также входит пакет ароматного чая и кружка. </p>
+			<p>Джинсы, свитер, обувь.<br>В комплект также входит пакет ароматного чая и кружка. </p>
         </div>
-		<div class="totlook__button"></div>
-			<button>-</button>
-			<p>1</p>
-			<button>+</button>
+		<div class="third__button">
+			<button type="button" class="minus">-</button>
+			 <input type="text" value="1" autocomplete="off" maxlength="2" class="in_tb numeric ignore">
+			<button type="button" class="plus">+</button>
 			<button>Добавить в корзину</button>
+		</div>
+		<a сlass="third__other" href='#' target="_blank">Другие товары на Loco.com</a>
+		<img src="images/Vector 2.3.png">
 	</article>
-	<a href='#' target="_blank">Другие товары на Loco.com</a>
-	<img src="images/Vector 2.3.png">
 </body>	
 </html>
