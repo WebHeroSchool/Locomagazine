@@ -4,6 +4,10 @@ body {
 	/*font-family: Montserrat;*/
 
 }
+.header__article {
+	position: relative;
+	height: 100%;
+}
 .square {
 position: absolute;
 width: auto;
@@ -208,7 +212,7 @@ color: #000;
 	.header__logo {
 	color: #000;
 	font-size: 30px;
-	padding-top: 25px;
+	padding-top: 20px;
 	margin-bottom: 0px;
 	padding-left: 26px;
 }
@@ -248,7 +252,6 @@ width: 100%;
 	display: none;
 }
 .first {
-	margin-top: -8px;
 	width: 100%;
 	min-width: 320px;
 	max-width: 1025px;
@@ -273,8 +276,8 @@ width: 100%;
 .first__description {
 position: absolute;
 top: 425px;
+padding-left: 0px;
 
-padding-left: 40px;
 }
 
 .first__description-title {
@@ -328,14 +331,19 @@ padding-left: 0px;
 	display: none;
 }
 .header__logo-wrap  {
+
+	height: 100%;
 	padding-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
 }
 	.header__logo {
 	color: #000;
 	font-size: 30px;
-	padding-top: 25px;
+	padding-top: 0px;
 	margin-bottom: 30px;
-	padding-left: 26px;
+	padding-left: 0px;
+
 }
 
 
@@ -367,7 +375,7 @@ width: 100%;
 	width: 100%;
 	min-width: 320px;
 	max-width: 1025px;
-	margin-top: -27px;
+	margin-top: -6px;
 	flex-direction: column;
 	padding-left: 0px;
 }
