@@ -5,6 +5,8 @@ body {
 
 }
 .header__article {
+	width: 100%
+	max-width: 1440px;
 	position: relative;
 	height: 100%;
 }
@@ -276,6 +278,9 @@ width: 100%;
 .first__description {
 position: absolute;
 top: 425px;
+bottom: 300px;
+left: 0px;
+right: 0px;
 padding-left: 0px;
 
 }
