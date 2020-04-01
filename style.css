@@ -1,12 +1,12 @@
 body {
 	margin: 0 auto;
 	padding: 0;
+	max-width: 1450px;
 	/*font-family: Montserrat;*/
 
 }
 .header__article {
-	width: 100%
-	max-width: 1440px;
+	width: 100%;
 	position: relative;
 	height: 100%;
 }
@@ -196,7 +196,7 @@ color: #000;
 	.header {
 		padding-top: 0;
 		width: 100%;
-		height: 100%;
+		height: 69px;
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-end;
@@ -258,7 +258,6 @@ width: 100%;
 	min-width: 320px;
 	max-width: 1025px;
 	flex-direction: column;
-	max-height: 700px;
 	padding-left: 0px;
 }
 .first__article {
@@ -276,8 +275,7 @@ width: 100%;
 
 .first__description {
 position: absolute;
-top: 425px;
-bottom: 300px;
+bottom: 17px;
 left: 0px;
 right: 0px;
 padding-left: 0px;
@@ -379,7 +377,7 @@ width: 100%;
 	width: 100%;
 	min-width: 320px;
 	max-width: 1025px;
-	margin-top: -6px;
+	margin-top: -5px;
 	flex-direction: column;
 	padding-left: 0px;
 }
@@ -399,7 +397,7 @@ width: 100%;
 .first__description {
 position: absolute;
 margin: 0 auto;
-top: 508px;
+bottom: 100px;
 padding-left: 40px;
 }
 
