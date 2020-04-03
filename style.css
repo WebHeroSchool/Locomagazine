@@ -5,6 +5,7 @@ body {
 	/*font-family: Montserrat;*/
 
 }
+
 .header__article {
 	width: 100%;
 	position: relative;
@@ -128,8 +129,8 @@ padding-top: 0px;
 }
 
 .first__description-title {
-width: 475px;
-height: 164px;
+/*width: 475px;
+height: 164px;*/
 font-weight: bold;
 font-size: 80px;
 line-height: 82px;
@@ -188,6 +189,33 @@ color: #000;
 }
 .third {
 	display: none;
+}
+
+
+@media (min-width: 1031px ) and (max-width: 1200px) {
+ .first {
+ 	padding-left: 45px;
+ }
+.first__article {
+	width: 400px;
+}
+.first__description {
+	height: 102px;
+}
+.first__description-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 70px;
+}
+.first__description-text {
+	width: 100%;
+}
+.first-buttons {
+	justify-content: space-around;
+}
+.other {
+	padding-left: 20px;
+}
 }
 
 /*Адаптив для мобильных*/
