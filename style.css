@@ -186,6 +186,9 @@ color: #000;
 }
 
 .second {
+	display: none;
+}
+/* .second {
 	width: 100%;
 	background: #FAE8E4;
 	display: flex;
@@ -363,7 +366,7 @@ margin-right: 9px;
 }
 .second__other-arrow {
 	display: flex;
-}
+} */
 .third {
 	display: none;
 }
