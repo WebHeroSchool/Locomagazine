@@ -536,6 +536,9 @@ padding-left: 50px;
 .other {
 	padding-left: 20px;
 }
+.second {
+	overflow: hidden;
+	}
 .second__img-1 {
 	width: 489px;
 	height: 644px;
@@ -571,6 +574,7 @@ padding-left: 50px;
 }
 .third {
 	height: 730px;
+	overflow: hidden; 
 }
 .third__img  {
 	width: 60%;
@@ -773,7 +777,7 @@ height: 30px;
 padding-left: 33px;
 }
 .colors {
-
+padding-top: 5px; 
 }
 .choice__item_grey {
 width: 23px;
@@ -1055,7 +1059,7 @@ height: 30px;
 padding-left: 33px;
 }
 .colors {
-
+padding-top: 5px; 
 }
 .choice__item_grey {
 width: 23px;
