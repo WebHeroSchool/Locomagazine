@@ -3,10 +3,13 @@ body {
 	padding: 0;
 	min-width: 320px;
 	max-width: 1450px;
-	/*font-family: Montserrat;*/
-
 }
- /*First*/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
 
 .header__article {
 	width: 100%;
@@ -61,15 +64,16 @@ body {
 }
 
 .lang__type {
-display: flex;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-text-align: right;
-text-transform: uppercase;
-color: #FFF;
-margin-right: 7px;
+	display: flex;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-right: 7px;
 }
+
 .lang__img {
 	display: flex;
 }
@@ -133,6 +137,7 @@ margin-right: 7px;
 	padding-left: 56px;
 	padding-top: 0;
 }
+
 .first-vector {
 	display: none;
 }
@@ -172,6 +177,10 @@ margin-right: 7px;
 	background: none;
 }
 
+.first__button:hover {
+	text-decoration: underline;
+}
+
 .other {
 	display: flex;
 	align-items: center;
@@ -189,20 +198,21 @@ margin-right: 7px;
 	line-height: 0;
 	color: #000;
 }
+.first__other:hover {
+	text-decoration: underline;
+}
 
 .first__other-arrow {
 	display: flex;
 	margin-right: 7px;
 }
-/*First*/
 
-
-/*Second*/
 .second {
 	height: 100%;
 	margin: 0 auto;
 	width: 100%;
 	background: #FAE8E4;
+	overflow: hidden;
 
 }
 .clatch {
@@ -247,16 +257,15 @@ margin-right: 7px;
 	font-size: 16px;
 	line-height: 16px;
 	text-transform: uppercase;
-	opacity: 0.5;
+	opacity: .5;
 	margin-bottom: 64px;
 }
 .second__description-text {
 	width: 368px;
 	height: 148px;
 	font-style: normal;
-	/*font-size: 15px;*/
 	line-height: 21px;
-	opacity: 0.5;
+	opacity: .5;
 	margin-right: 65px;
 	margin-bottom: 30px;
 }
@@ -377,6 +386,11 @@ margin-right: 7px;
 
 }
 
+.second__button-text:hover {
+	background: black;
+	color: white;
+}
+
 .second__other {
 	width: 478px;
 	display: flex;
@@ -394,16 +408,20 @@ margin-right: 7px;
 	margin-right: 9px;
 }
 
-.second__other-arrow {display: flex;}
-/*Second*/
+.second__other-text:hover {
+	text-decoration: underline;
+}
 
-/*Third*/
+.second__other-arrow {display: flex;}
+
+
 .third {
 	margin: 0 auto;
 	width: 100%;
 	height: 900px;
 	background: #EBE3D8;
 	position: relative;
+	overflow:hidden;
 }
 
 .Total-look {
@@ -424,20 +442,15 @@ margin-right: 7px;
 }
 
 .third__img {
-	/*min-width: 500px;
-	max-width: */
 	z-index: 1;
 	padding-top: 139px;
 	position: relative;
 	padding-right: 494px;
-	/*padding-left: 138px;*/
-
 }
 
 .third__container {
 	position: absolute;
 	z-index: 2;
-	/*width: 100%;*/
 	display: block;
 	width:475px;
 	padding-top: 255px;
@@ -470,14 +483,14 @@ margin-right: 7px;
 	font-size: 16px;
 	line-height: 16px;
 	text-transform: uppercase;
-	opacity: 0.5;
+	opacity: .5;
 	margin-bottom: 35px;
 }
 
 .third__description-text {
 	font-size: 15px;
 	line-height: 21px;
-	opacity: 0.5;
+	opacity: .5;
 	margin-bottom: 34px;
 }
 
@@ -516,6 +529,11 @@ margin-right: 7px;
 
 }
 
+.third__button-text:hover {
+	background: black;
+	color: white;
+}
+
 .third__other {
 	display: flex;
 	justify-content: flex-end;
@@ -526,6 +544,10 @@ margin-right: 7px;
 	color: black;
 	text-transform: uppercase;
 	margin-right: 6px;
+}
+
+.third__other-text:hover {
+	text-decoration: underline;
 }
 
 .by {
@@ -540,13 +562,14 @@ margin-right: 7px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
-/*Third*/
+
+.whs {padding-top: 17px;}
 
 
-/*Экраны поменьше*/
+
 @media (min-width: 1031px ) and (max-width: 1250px) {
 
-/*First*/
+
  .first {padding-left: 45px;}
 
 .first__article {width: 400px;}
@@ -564,9 +587,7 @@ margin-right: 7px;
 .first-buttons {justify-content: space-around;}
 
 .other {padding-left: 20px;}
-/*First*/
 
-/*Second*/
 .second__img-1 {
 	width: 489px;
 	height: 644px;
@@ -597,9 +618,7 @@ margin-right: 7px;
 .second__button {margin-bottom: 56px;}
 
 .second__other-arrow {width: 210px;}
-/*Second*/
 
-/*Third*/
 .third {
 	overflow: hidden;    
 	height: 730px;
@@ -624,16 +643,13 @@ margin-right: 7px;
 	left: 75%;
 	top: 92%;
 }
-/*Third*/
+
 }
-/*Экраны поменьше*/
 
-
-/*Адаптив для мобильных*/
 
    @media  (min-width: 1px) and (max-width: 518px) {
 	
-/*First*/
+
 	.header {
 		padding-top: 0;
 		width: 100%;
@@ -652,7 +668,13 @@ margin-right: 7px;
 }
 .header__logo-wrap {padding-left: 0;}
 
-	.header__logo {
+
+.header__logo-wrap  {
+	padding-left: 0;
+	padding-top: 0;
+}
+
+.header__logo {
 	color: #000;
 	font-size: 30px;
 	padding-top: 20px;
@@ -660,10 +682,6 @@ margin-right: 7px;
 	padding-left: 26px;
 }
 
-.header__logo-wrap  {
-	padding-left: 0;
-	padding-top: 0;
-}
 .header__lang {
 	display: none;
 	padding-left: 0;
@@ -737,9 +755,7 @@ margin-right: 7px;
 }
 
 .first__description-text, .first-buttons  {display: none;}
-/*First*/
 
-/*Second*/
 .second {
 	height: 100%;
 	min-width: 1px;
@@ -834,10 +850,7 @@ margin-right: 7px;
 .second__other {display: none;}
 
 .second__button-text {padding: 10px 33px}
-/*Second*/
 
-
-/*Third*/
 
 .third {
 	overflow: hidden;
@@ -922,30 +935,26 @@ margin-right: 7px;
 .third__other-text {
 	font-size: 15px;
 	white-space:  pre-wrap ;
-	/*padding-left: 188px;*/
+	
 }
 
 .third__other-arrow {
 	align-self: flex-start;
-	/*padding-left: 187px;*/
+	
 }
 
 .by {display: none;}
-/*Third*/
+
 }
 
-/*Адаптив для мобильных*/
-
- 
- /*Адаптив для планшетов*/
 
  @media  (min-width: 519px) and (max-width: 1030px) {
 
-/*First*/
+
 .header {
 		padding-top: 0;
 		width: 100%;
-		height: 100%;
+		height: 90px;
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-end;
@@ -965,7 +974,7 @@ margin-right: 7px;
 	.header__logo {
 	color: #000;
 	font-size: 30px;
-	padding-top: 0;
+	padding-top: 29px;
 	margin-bottom: 30px;
 	padding-left: 0;
 
@@ -994,7 +1003,6 @@ margin-right: 7px;
 	width: 100%;
 	min-width: 320px;
 	max-width: 1025px;
-	margin-top: -5px;
 	flex-direction: column;
 	padding-left: 0;
 }
@@ -1032,14 +1040,12 @@ margin-right: 7px;
 	display: flex;
 	margin: 0 auto;
     width: 28px;
-   height: 14px;
+   	height: 14px;
 
 }
 
 .first__description-text, .first-buttons  {display: none;}
-/*First*/
 
-/*Second*/
 .second {width: 100%;}
 
 .clatch {
@@ -1064,7 +1070,7 @@ margin-right: 7px;
 .second__wrap {
 	margin: 0 auto;
 	width: 400px;
-	height: 300px;
+	height: 345px;
 	box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	margin-top: 0;
@@ -1073,7 +1079,8 @@ margin-right: 7px;
 
 .second__description {
 	padding-top: 15px;
-	padding-left: 33px;
+	padding-left: 57px;
+	margin-bottom: 50px;
 }
 .second__description-title {
 	font-size: 20px;
@@ -1084,16 +1091,14 @@ margin-right: 7px;
 }
 
 .second__description-text {
-	font-size: 9px;
+	font-size: 12px;
 	width: 252px;
 	height: 84px;
-	margin-bottom: 12px;
 }
 
 .choice {
 	margin-bottom: 34px;
 	height: 30px;
-	padding-left: 33px;
 }
 
 .colors {padding-top: 10px;}
@@ -1131,9 +1136,7 @@ margin-right: 7px;
 	margin: 0 auto;
 	padding: 10px 33px
 }
-/*Second*/
 
-/*Third*/
 .third {
 	overflow: hidden;
 	width: 100%;
@@ -1175,7 +1178,7 @@ margin-right: 7px;
 	box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	width: 315px;
-	height: 200px;
+	height: 225px;
 	margin: 0 auto;
 }
 
@@ -1197,7 +1200,7 @@ margin-right: 7px;
 }
 
 .third__description-text{
-	font-size: 9px;
+	font-size: 12px;
 	margin-bottom: 14px;
 }
 
@@ -1230,8 +1233,8 @@ margin-right: 7px;
 .by {
 	display: none;
 }
-/*Third*/
+
  }
- /*Адаптив для планшетов*/
+ 
 
 
